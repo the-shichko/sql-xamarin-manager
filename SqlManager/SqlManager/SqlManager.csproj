@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <DebugType>pdbonly</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="runtime.native.System.Data.SqlClient.sni" Version="4.7.0" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+        <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
+    </ItemGroup>
+</Project>

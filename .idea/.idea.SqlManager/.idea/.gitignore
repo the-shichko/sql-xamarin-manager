@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/.idea.SqlManager.iml
+/modules.xml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\WORKS\C#\GitHub\SqlManager\.idea\.idea.SqlManager\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
